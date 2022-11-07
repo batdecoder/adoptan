@@ -1,0 +1,47 @@
+:root{
+     /* 主题色 */
+    --color-primary:#0fcf80;
+    /* （主要容器）内容宽度 */
+    --container-width:1000px;
+     /* 头部的高 */
+    --header-height:80px;
+     /* 页脚的高 */
+    --footer-height:100px;
+}
+
+#header {
+    background-color: var(--color-primary); /* 使用主题色 */
+    height: var(--header-height);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* 定位方式的元素常见层级: 全局弹窗1000  头部栏100 普通的10 */
+    z-index: 100;
+  }
+  body {
+    /* 把头部栏占据的位置, 空出来(否则头部和页脚会重叠) */
+    padding-top: var(--header-height);
+    /* 最小宽度 */
+    min-width: var(--container-width);
+  }
+  
+  /* 设置滚动栏的样式 */
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  /* 滚动栏的轨道 */
+  ::-webkit-scrollbar-track {
+    background-color: #ddd9cf;
+  }
+  /* 滚动栏滑块 */
+  ::-webkit-scrollbar-thumb {
+    background-color: #b3aa94;
+    border-radius: 6px;
+  }
+
+/* 隐藏 */
+.hide {
+    display: none;
+  }
+  
