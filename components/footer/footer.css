@@ -1,0 +1,14 @@
+#footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 14px;
+}
+#footer > div margin:auto > a {
+  color: white;
+}
+#footer > div margin:auto > a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=footer.css.map */
