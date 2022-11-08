@@ -1,0 +1,57 @@
+/* 样式重置: 抹平不同浏览器自带样式的差异 */
+* {
+    box-sizing: border-box;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  li,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  html {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+  button:active {
+    opacity: 0.8;
+  }
+  
+  input[type='text'] {
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
