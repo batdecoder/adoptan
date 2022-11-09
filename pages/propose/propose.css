@@ -1,0 +1,36 @@
+.nav {
+  height: 350px;
+  background: url(./../../assets/img/navimg/nav-propose.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  position: relative;
+}
+.container > h1 {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  color: white;
+  text-shadow: 2px 2px 1px #333;
+}
+.container > h1 + p {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.container > h1 + p > a {
+  color: #aaa;
+  font-size: 14px;
+}
+.container > h1 + p > a:hover {
+  text-decoration: underline;
+}
+.container > h4 {
+  margin: 40px 0;
+}
+.container > p {
+  line-height: 25px;
+  margin-bottom: 20px;
+  text-indent: 2em;
+}/*# sourceMappingURL=propose.css.map */

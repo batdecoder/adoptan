@@ -1,0 +1,54 @@
+.nav {
+  height: 350px;
+  background: url(./../../assets/img/navimg/nav-contact.jpg) no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  position: relative;
+}
+.container > h1 {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  color: white;
+  text-shadow: 2px 2px 1px #333;
+}
+.container > h1 + p {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.container > h1 + p > a {
+  color: #aaa;
+  font-size: 14px;
+}
+.container > h1 + p > a:hover {
+  text-decoration: underline;
+}
+.container > h2 {
+  color: var(--color-primary);
+  margin: 20px 0;
+}
+.container > p {
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container > hr {
+  margin: 20px 0;
+}
+.container > h3 > a {
+  color: var(--color-primary);
+}
+.container > h3 > a:hover {
+  text-decoration: underline;
+}
+.container > div > p {
+  font-size: 14px;
+  line-height: 25px;
+}
+.container > div > p > span {
+  color: #585858;
+  font-weight: 800;
+}/*# sourceMappingURL=contact.css.map */
