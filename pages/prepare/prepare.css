@@ -1,0 +1,56 @@
+#main > .top {
+  position: relative;
+  overflow: hidden;
+}
+#main > .top > img {
+  width: 100%;
+  height: 350px;
+}
+#main > .top > div {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  transform: translate(-50%);
+  left: 50%;
+  width: var(--container-width);
+  color: white;
+  text-shadow: 2px 2px 1px #333;
+}
+#main > .nav {
+  width: var(--container-width);
+  position: relative;
+  transform: translate(-50%);
+  left: 50%;
+  margin: 20px 0;
+  overflow: auto;
+  color: #aaa;
+  font-size: 14px;
+}
+#main > .container {
+  width: var(--container-width);
+  position: relative;
+  transform: translate(-50%);
+  left: 50%;
+  margin: 20px 0;
+  overflow: auto;
+}
+#main > .container p {
+  padding: 0 10px;
+}
+#main > .container > div:first-child h2 {
+  color: var(--color-primary);
+}
+#main > .container > div:first-child h3 {
+  color: var(--color-primary);
+}
+#main > .container > .list h3 {
+  color: var(--color-primary);
+  border-bottom: 2px solid #0fcf80;
+  padding-bottom: 8px;
+}
+#main > .container > .list > div {
+  background-color: #f6f6f6;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px 5px;
+}/*# sourceMappingURL=prepare.css.map */
