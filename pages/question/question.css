@@ -1,0 +1,126 @@
+/* 图片部分 */
+#q1{
+    width: 100% ;
+    height: 400px;
+    display: flex;
+    position: relative;
+}
+#q1 img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+
+#q1 span{
+    width: inherit;
+    font-size: 34px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    text-align: center ;
+}
+
+/* 导航链接部分 */
+#q2{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    line-height: 50px;
+    font-size: 24px;
+}
+#q2 a{
+    color: #b3aa94;
+    margin: 2px;
+}
+#q2 span{
+    color: black;
+    margin: 2px;
+}
+
+
+/* 正文部分 */
+/* 左侧部分 */
+#q3{
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.q3-1{
+    width: 700px;
+    /* background-color: aqua; */
+}
+
+.q3-1 ul li div{
+    display: flex;
+    background-color: blue;
+    
+}
+.q3-1 ul li div span{
+    font-size: 30px;
+    align-items: center;
+    left: 0;
+    margin: 2px;
+
+}
+.q3-1 ul li div h3{
+    align-items: center;
+    left: 6px;
+    margin: 2px;
+}
+
+
+
+/* 右侧部分 */
+.q3-2{
+    width: 300px;
+    /* background-color: pink; */
+    position: relative;
+    display: inline-block;
+}
+.q3-2 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    margin-left: -100px;
+}
+.q3-2 button{
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border: 1px black;
+    border-radius: 20%;
+    position: absolute;
+    left: 50%;
+    top: 230px;
+    margin-left: -15px;
+}
+.q3-2-1{
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 300px;
+    text-align: center;
+    
+}
+
+.q3-2-1 h5{
+    text-align: left;
+    color: blue;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
