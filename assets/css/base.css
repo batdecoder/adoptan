@@ -44,4 +44,12 @@
 .hide {
     display: none;
   }
+<<<<<<< HEAD
   
+=======
+
+.container{
+  width: var(--container-width);
+  margin: 0 auto;
+}
+>>>>>>> e6913d93201f407a5c6ab31d5b8a803411b5495f
