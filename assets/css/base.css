@@ -44,4 +44,8 @@
 .hide {
     display: none;
   }
-  
+
+.container{
+  width: var(--container-width);
+  margin: 0 auto;
+}
