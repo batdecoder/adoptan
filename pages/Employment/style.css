@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'weiruanyahei';
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+
+.accordion-menu {
+    padding: 0 12.5rem;
+
+}
+
+.container{
+    max-width: 1210px;
+    padding:0  2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title {
+    background-color: lightgray;
+    display: flex;
+    color: #0076BB;
+    padding: 25px;
+    cursor: pointer;
+    text-transform: uppercase ;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon {
+    position: relative;
+    width: 1.125rem;
+}
+.icon::before, .icon:after {
+content: "";
+position: absolute;
+width: 22px;
+height: 8px;
+background-color: #fff;
+top:-1.5px;
+}
+
+.icon::after {
+    transform: rotate(90deg);
+    transition: .3s linear;
+}
+.text {
+color:black;
+line-height: 26px;
+margin: 6px 0;
+opacity: 0;
+height: 0;
+}
+.item:target .text {
+    height: auto;
+    opacity: 1;
+    padding:20px;
+    margin: 12px 0;
+}
+.item:target .icon::after{
+    transform: rotate(0);
+}
+
+@media screen and (max-width: 1200px){ 
+    .container{
+        max-width: 960;
+    }
+    
+}
+.accordion-menu {
+    width: 100%;
+    margin: 1.25rem 0;
+}

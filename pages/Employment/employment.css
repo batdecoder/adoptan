@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'weiruanyahei';
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* 头部导航栏 */
+#header {
+    position: relative;
+    left: 0;
+    top:0;
+    width: 100%;
+}
+.nav_top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: pink;
+    
+    
+    width: 100%;
+    height: 5rem;
+}
+
+/* 存放内容 */
+img {
+    width: 100%;
+}
+.nav {
+    /* position: relative; */
+    height: 600px;
+    overflow: hidden;
+
+}
+
+h1 {
+    padding: 0 12.5rem;
+    position: absolute;
+    top: 28.5rem;
+    left: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.titles {
+    font-size: 1.25rem;
+    padding: 3.125rem 12.5rem;
+
+}
+
+.joinus {
+    padding: 0 12.5rem;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    color: #0076BB;
+    margin: .9375rem;
+}
+
+.intro {
+    padding: 0 12.5rem;
+    font-size: 25px;
+    color: black;
+    margin: .9375rem;
+}
+
+/* 底部注册页面 */
+.tail {
+
+    background-color: #5eb2e2;
+    height: 85px;
+}
+.end {
+    float: left;
+     padding-left: 31.25rem;
+    /* border: 1px solid pink; */
+}
+
+.update {
+    
+    line-height: 85px;
+    font-size: 40px;
+    font-weight: 700;
+    
+
+}
+input   {
+    outline: none;
+   vertical-align: middle;
+    margin-top: -12px ;
+  box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+}
+input::-webkit-input-placeholder{ 
+    padding-left: 10px;  
+    color:rgb(122, 122, 122);
+    font-size:24px;
+    line-height: 40px;
+    }
+button {
+    outline: none;
+    vertical-align: middle;
+    box-sizing: content-box;
+    margin-top: -12px ;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    /* background-color: hotpink; */
+    color:#459cce;
+    font-weight: 700;
+
+}

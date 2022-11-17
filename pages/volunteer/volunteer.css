@@ -1,0 +1,92 @@
+#container img {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+#container div > h1 {
+  color: #ffffff;
+  position: absolute;
+  left: 225px;
+  font-size: 3.05556rem;
+  margin-top: -90px;
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+  font-family: Source Sans Pro, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+#container div.breadcrumb {
+  margin-left: 225px;
+  margin-top: 20px;
+  position: relative;
+}
+#container div.breadcrumb a {
+  color: #0076bb;
+  font-family: Source Sans Pro, Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 20px;
+}
+#container div.breadcrumb a:last-child {
+  font-size: 23px;
+  color: #5f6164;
+}
+#container div.life > h1 {
+  color: #046fad;
+  font-family: Source Sans Pro, Arial, Helvetica Neue, Helvetica, sans-serif;
+  text-shadow: none;
+  margin-top: -195px;
+  position: absolute;
+}
+#container div.life .content {
+  font-size: 1.2222rem;
+  color: #646c6a;
+  height: 35px;
+  width: 100%;
+  margin-left: -45px;
+  position: absolute;
+  margin-top: -115px;
+  font-weight: bolder;
+}
+#container div.life > div {
+  width: 1400px;
+  height: 750px;
+  display: flex;
+  margin: 220px auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#container div.life > div .train > div {
+  background: url("../../assets/img/animal/28.JPG");
+  background-size: cover;
+}
+#container div.life > div .chance > div {
+  background: url("../../assets/img/animal/27.JPG");
+  background-size: cover;
+}
+#container div.life > div .login > div {
+  background: url("../../assets/img/animal/26.JPG");
+  background-size: cover;
+}
+#container div.life > div .affect > div {
+  background: url("../../assets/img/animal/25.JPG");
+  background-size: cover;
+}
+#container div.life > div .problem > div {
+  background: url("../../assets/img/animal/24.JPG");
+  background-size: cover;
+}
+#container div.life > div .job > div {
+  background: url("../../assets/img/animal/23.JPG");
+  background-size: cover;
+}
+#container div.life > div > div > span {
+  height: 35px;
+  color: #0076bb;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  display: block;
+  text-align: center;
+  width: 363px;
+  box-shadow: 2px 2px 3px;
+  font-weight: bold;
+}
+#container div.life > div div > div {
+  width: 364px;
+  height: 450px;
+}/*# sourceMappingURL=volunteer.css.map */
