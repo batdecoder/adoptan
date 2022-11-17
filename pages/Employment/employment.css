@@ -6,8 +6,30 @@
     text-decoration: none;
 }
 
-.nav {
+/* 头部导航栏 */
+#header {
     position: relative;
+    left: 0;
+    top:0;
+    width: 100%;
+}
+.nav_top {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: pink;
+    
+    
+    width: 100%;
+    height: 5rem;
+}
+
+/* 存放内容 */
+img {
+    width: 100%;
+}
+.nav {
+    /* position: relative; */
     height: 600px;
     overflow: hidden;
 
