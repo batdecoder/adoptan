@@ -9,7 +9,7 @@
 }
 #main > .top {
   position: absolute;
-  top: -100px;
+  top: -80px;
   transform: translate(-50%);
   left: 50%;
   width: var(--container-width);
@@ -23,8 +23,17 @@
   left: 50%;
   margin: 10px 0 20px;
   overflow: auto;
+}
+#main > .crumbs p {
   color: #aaa;
   font-size: 14px;
+}
+#main > .crumbs a {
+  color: #aaa;
+  font-size: 14px;
+}
+#main > .crumbs a:hover {
+  text-decoration: underline;
 }
 #main > .container {
   width: var(--container-width);

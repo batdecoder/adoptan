@@ -9,8 +9,7 @@
 
   > .top {
     position: absolute;
-
-    top: -100px;
+    top: -80px;
     transform: translate(-50%);
     left: 50%;
     width: var(--container-width);
@@ -25,8 +24,18 @@
     left: 50%;
     margin: 10px 0 20px;
     overflow: auto;
+    p{
+      color: #aaa;
+    font-size: 14px;
+    }
+    a{
     color: #aaa;
     font-size: 14px;
+    &:hover{
+      text-decoration: underline;
+    }
+    }
+ 
   }
   > .container {
     width: var(--container-width);
