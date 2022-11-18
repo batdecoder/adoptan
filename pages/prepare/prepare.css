@@ -1,27 +1,27 @@
-#main > .top {
-  position: relative;
-  overflow: hidden;
-}
-#main > .top > img {
-  width: 100%;
+.nav {
+  background: url(./../../assets/img/navimg/nav-prepare.jpg) no-repeat;
   height: 350px;
+  background-size: 100%;
 }
-#main > .top > div {
+
+#main {
+  position: relative;
+}
+#main > .top {
   position: absolute;
-  display: flex;
-  bottom: 0;
+  top: -100px;
   transform: translate(-50%);
   left: 50%;
   width: var(--container-width);
   color: white;
   text-shadow: 2px 2px 1px #333;
 }
-#main > .nav {
+#main > .crumbs {
   width: var(--container-width);
   position: relative;
   transform: translate(-50%);
   left: 50%;
-  margin: 20px 0;
+  margin: 10px 0 20px;
   overflow: auto;
   color: #aaa;
   font-size: 14px;

@@ -1,29 +1,29 @@
-#main {
-  > .top {
-    position: relative;
-    overflow: hidden;
+.nav {
+  background: url(./../../assets/img/navimg/nav-prepare.jpg) no-repeat;
 
-    > img {
-      width: 100%;
-      height: 350px;
-    }
-    > div {
-      position: absolute;
-      display: flex;
-      bottom: 0;
-      transform: translate(-50%);
-      left: 50%;
-      width: var(--container-width);
-      color: white;
-      text-shadow: 2px 2px 1px #333;
-    }
+  height: 350px;
+  background-size: 100%;
+}
+#main {
+  position: relative;
+
+  > .top {
+    position: absolute;
+
+    top: -100px;
+    transform: translate(-50%);
+    left: 50%;
+    width: var(--container-width);
+    color: white;
+    text-shadow: 2px 2px 1px #333;
+
   }
-  > .nav {
+  > .crumbs {
     width: var(--container-width);
     position: relative;
     transform: translate(-50%);
     left: 50%;
-    margin: 20px 0;
+    margin: 10px 0 20px;
     overflow: auto;
     color: #aaa;
     font-size: 14px;
@@ -36,7 +36,7 @@
     margin: 20px 0;
     overflow: auto;
 
-    p{
+    p {
       padding: 0 10px;
     }
 
