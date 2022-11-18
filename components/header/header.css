@@ -1,7 +1,6 @@
-
 #header > .nbar {
   height: 80px;
-  background-color: #046fad;
+  background-color: var(--color-primary);
   display: flex;
   justify-content: center;
 }
@@ -25,10 +24,6 @@
   display: flex;
   justify-content: end;
   max-width: 590px;
-}
-#header > .nbar > div > .nbar-right > a > img {
-  width: 40px;
-  height: 40px;
 }
 #header > .nbar > div > .nbar-right > ul {
   display: flex;
@@ -78,5 +73,4 @@
 }
 #header > .nbar > div > .nbar-right > ul > li > ul li > a {
   color: #4a9ecf;
-
 }/*# sourceMappingURL=header.css.map */

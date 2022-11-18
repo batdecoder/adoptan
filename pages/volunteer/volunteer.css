@@ -27,7 +27,7 @@
   color: #5f6164;
 }
 #container div.life > h1 {
-  color: #046fad;
+  color: var(--color-primary);
   font-family: Source Sans Pro, Arial, Helvetica Neue, Helvetica, sans-serif;
   text-shadow: none;
   margin-top: -195px;

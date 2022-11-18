@@ -1,8 +1,7 @@
-
 #header {
   > .nbar {
     height: 80px;
-    background-color: #046fad;
+    background-color: var(--color-primary);
     display: flex;
     justify-content: center;
     > div {
@@ -81,7 +80,6 @@
                 color: #4a9ecf;
               }
             }
-
           }
         }
       }
